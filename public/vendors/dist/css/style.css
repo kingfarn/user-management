@@ -1,0 +1,18 @@
+.button {
+    padding: 10px 26px;
+    background-color: rgb(35, 35, 99);
+    background-position: top center;
+
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+    font-weight: bold;
+    text-transform:uppercase;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.button:hover {
+    background-position: right center;
+    color: #f1b86de8;
+}
