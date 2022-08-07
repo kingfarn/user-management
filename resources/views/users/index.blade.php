@@ -28,10 +28,13 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @php
+                                 $i=1;
+                            @endphp
                             @foreach ($users as $user)
                                 <tr>
                                     <input type="hidden" class="delete_val_id" value="{{ $user->id }}">
-                                    <td>{{ $user->id }}</td>
+                                    <td>{{$i++}}</td>
                                     <td>{{ $user->name }}</td>
                                     <td>{{ $user->email }}</td>
                                     <td>
